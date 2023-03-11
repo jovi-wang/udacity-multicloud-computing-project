@@ -1,6 +1,6 @@
 # AWS DynamoDB vs Azure CosmosDB
 
-### Key considerations
+## Key considerations
 
 - Global availability
 - Highly scalable pricing
@@ -28,4 +28,6 @@ Azure CosmosDB:
 - Provisioned read capacity: 10,000 reads/second x 60 seconds x 60 minutes x 24 hours x 30 days x $0.008/hour = $14,976/month
 - Total cost: $25 + $7,488 + $14,976 = $22,489/month
 
-In conclusion, DynamoDB is significantly less expensive than CosmosDB for the given usage requirements.
+## Conclusion
+
+DynamoDB is significantly less expensive than CosmosDB for the given usage requirements.
